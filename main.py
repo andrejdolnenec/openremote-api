@@ -4,7 +4,7 @@ import json
 app = Flask(__name__)
 
 data =  json.load(open('data.json'))
-location = json.load(open('location.json'))
+#location = json.load(open('location.json'))
 
 @app.route('/get/', methods=['GET'])
 def respond():
@@ -27,7 +27,7 @@ def respond():
 
     # Return the response in json format
    # return jsonify(response)
-    return location
+    return data
 
 
 @app.route('/post/', methods=['POST'])
