@@ -1,6 +1,9 @@
 from flask import Flask, request, jsonify
+import json
+
 app = Flask(__name__)
 
+data =  json.load(open('data.json'))
 
 @app.route('/get/', methods=['GET'])
 def respond():
@@ -22,7 +25,8 @@ def respond():
         response["MESSAGE"] = f"Welcome {name} to our awesome API!"
 
     # Return the response in json format
-    return jsonify(response)
+   # return jsonify(response)
+    return data
 
 
 @app.route('/post/', methods=['POST'])
