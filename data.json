@@ -2,41 +2,13 @@
     "propertys": {
         "a": {
             "name" : "aaaaa",
-            "location" : {
-                "type": "FeatureCollection",
-                "features": [
-                  {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                      "type": "Point",
-                      "coordinates": [
-                        4.488934278488159,
-                        51.90995719306688
-                      ]
-                    }
-                  }
-                ]
-            }
+            "coordinates" : [
+                4.4659423828125,
+                51.92394344554469
+            ]
         },
         "b" : {
-            "name" : "bbbbb",
-            "location" : {
-                "type": "FeatureCollection",
-                "features": [
-                  {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                      "type": "Point",
-                      "coordinates": [
-                        4.4844818115234375,
-                        51.90443362388522
-                      ]
-                    }
-                  }
-                ]
-            }
+            "name" : "bbbbb"
         }
     }
 }
