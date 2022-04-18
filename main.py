@@ -4,7 +4,6 @@ import json
 app = Flask(__name__)
 
 data =  json.load(open('data.json'))
-#location = json.load(open('location.json'))
 
 @app.route('/get/', methods=['GET'])
 def respond():
