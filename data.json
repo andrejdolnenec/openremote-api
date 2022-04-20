@@ -1,3 +1,16 @@
 {
-    "location" : "sdsdsdsds"
-}
+    "Properties" : {
+        "property1" : {
+            "Title" : "Property in rotterdam",
+            "Price" : 999,
+            "Area" : 89,
+            "geometry": {"type": "Point", "coordinates": [4.4886016845703125, 51.90996712097988]}
+        }
+    },
+    "CoSensors" : {
+
+    },
+    "CarChargers" : {
+        
+    }
+} 
